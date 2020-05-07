@@ -1,0 +1,40 @@
+/*.productleft {
+  float: left;
+  width: 50%
+}
+
+.productright {
+  float: right;
+  width: 50%;
+}*/
+
+.product {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 10px;
+  display: block;
+}
+
+.product button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: burlywood;
+  background-color: saddlebrown;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.product h1, p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.product button:hover {
+  opacity: 0.7;
+}
