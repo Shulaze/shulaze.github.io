@@ -1,18 +1,12 @@
-<!DOCTYPE html>
 <html>
-
-  <head>
-
-    <title>About us</title>
-    <meta charset="utf-8"/>
-
-    <style>
-
-body {
+<title>About us</title>
+<head> <style>
+     
+    body {
   background-color: burlywood;
 }
-
-div.scrollmenu {
+        
+    div.scrollmenu {
   background-color: saddlebrown;
   overflow: auto;
   white-space: nowrap;
@@ -30,21 +24,113 @@ div.scrollmenu a:hover {
   background-color: burlywood;
     color: saddlebrown
 }
+        
+
+    
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 
-    </style>
+header {
+  background-color: saddlebrown;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: burlywood;
+}
 
-  </head>
 
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: burlywood;
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: burlywood;
+  height: 300px; 
+}
+
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: saddlebrown;
+  padding: 10px;
+  text-align: center;
+  color: burlywood;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
 <body>
+    
+    <div class="scrollmenu">
+  <a href="Home.html">Home</a>
+  <a href="About us.html">About us</a>
+  <a href="Products.html">Products</a>
+  <a href="Custom shoes.html">Custom shoes</a>
+        </div>
 
-  <div class="scrollmenu">
-    <a href="index.html">Home</a>
-    <a href="aboutus.html">About us</a>
-    <a href="products.html">Products</a>
-    <a href="customshoes.html">Custom shoes</a>
-  </div>
+<header>
+  <h2>About Us</h2>
+</header>
+
+<section>
+  <nav>
+    <h3 style="color:saddlebrown;">Memebers</h3>
+      <br>
+      <p2 style="color:saddlebrown;">Adam.K</p2>
+      <br>
+      <p2 style="color:saddlebrown;">Denni.B</p2>
+      <br>
+      <p2 style="color:saddlebrown;">Samuel.P</p2>
+      <br>
+      <p2 style="color:saddlebrown;">Rami.S</p2>
+  </nav>
+  
+  <article>
+    <h1 style="color:saddlebrown;">Shulaze</h1>
+    <p style="color:saddlebrown;">Shulaze is a private run corporation from Gothenburg.</p>
+    
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+    
+    <p>din mamma</p>
 
 </body>
+
 
 </html>
