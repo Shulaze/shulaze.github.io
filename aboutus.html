@@ -1,11 +1,17 @@
+<!DOCTYPE html>
 <html>
+<head>
+
 <title>About us</title>
-<head> <style>
-     
+
+<meta charset="utf-8"/>
+
+<style>
+
     body {
   background-color: aliceblue;
 }
-        
+
     div.scrollmenu {
   background-color: cadetblue;
   overflow: auto;
@@ -24,9 +30,9 @@ div.scrollmenu a:hover {
   background-color: aliceblue;
     color: cadetblue
 }
-        
 
-    
+
+
 * {
   box-sizing: border-box;
 }
@@ -45,7 +51,7 @@ header {
 nav {
   float: left;
   width: 30%;
-  height: 300px; 
+  height: 300px;
   background: aliceblue;
   padding: 20px;
 }
@@ -61,7 +67,7 @@ article {
   padding: 20px;
   width: 70%;
   background-color: aliceblue;
-  height: 300px; 
+  height: 300px;
 }
 
 
@@ -91,8 +97,8 @@ footer {
   margin-left: auto;
   margin-right: auto;
 }
-    
-    
+
+
     * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
@@ -170,30 +176,30 @@ img {vertical-align: middle;}
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
-    
-    
-    
+
+
+
 </style>
 </head>
 <body>
-    
+
     <div class="scrollmenu">
-  <a href="Home.html">Home</a>
-  <a href="About us.html">About us</a>
+  <a href="index.html">Home</a>
+  <a href="Aboutus.html">About us</a>
   <a href="Products.html">Products</a>
-  <a href="Custom shoes.html">Custom shoes</a>
+  <a href="Customshoes.html">Custom shoes</a>
         </div>
 
 <header>
@@ -204,42 +210,42 @@ img {vertical-align: middle;}
   <nav>
     <h3 style="color:cadetblue;">Memebers</h3>
       <br>
-      <p2 style="color:cadetblue;">Adam.K</p2>
+      <p style="color:cadetblue;">Adam.K</p>
       <br>
-      <p2 style="color:cadetblue;">Denni.B</p2>
+      <p style="color:cadetblue;">Denni.B</p>
       <br>
-      <p2 style="color:cadetblue;">Samuel.P</p2>
+      <p style="color:cadetblue;">Samuel.P</p>
       <br>
-      <p2 style="color:cadetblue;">Rami.S</p2>
+      <p style="color:cadetblue;">Rami.S</p>
   </nav>
-  
+
   <article>
     <h1 style="color:cadetblue;">Shulaze</h1>
     <p style="color:cadetblue;">Shulaze is a private run corporation from Gothenburg. The point of our corporation is to make your unique shoe. We have now made over 1500 unique customshoes and sold over 3000 pairs of premade shoes. Several known face around the world have gotten their custom shoes by uss.
         <br> <br>
         All members have worked with product design since high school and has been our profession since then.</p>
-    
+
   </article>
 </section>
 
-    
+
 <div class="slideshow-container">
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
-  <img src="https://sneakernews.com/wp-content/uploads/2019/12/MIGOS-Air-Jordan-1-Stir-Fry-Custom-13.jpg" style="width:50%">
+  <img src="https://sneakernews.com/wp-content/uploads/2019/12/MIGOS-Air-Jordan-1-Stir-Fry-Custom-13.jpg" alt="Custom Shoe" style="width:50%">
   <div class="text">Quavo</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-  <img src="https://i.pinimg.com/originals/ac/c1/61/acc1612fbac760f788599f423d99aa04.jpg" style="width:50%">
+  <img src="https://i.pinimg.com/originals/ac/c1/61/acc1612fbac760f788599f423d99aa04.jpg" alt="Custom Shoe" style="width:50%">
   <div class="text">Offset</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="https://sneakernews.com/wp-content/uploads/2019/12/MIGOS-Air-Jordan-1-Stir-Fry-Custom-4.jpg" style="width:50%">
+  <img src="https://sneakernews.com/wp-content/uploads/2019/12/MIGOS-Air-Jordan-1-Stir-Fry-Custom-4.jpg" alt="Custom Shoe" style="width:50%">
   <div class="text">Takeoff</div>
 </div>
 
@@ -250,9 +256,9 @@ img {vertical-align: middle;}
 <br>
 
 <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
 </div>
 
 <script>
@@ -271,25 +277,25 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
+  if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
+      slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
 </script>
 
-    
+
 <footer>
   <h3>Where can you find uss and contact uss?</h3>
     <br>
     <p>address: Östra Hamngatan 17, Centrum, Göteborg<br>
-    mail: shulaze.contact@gmail.com<br> 
+    mail: shulaze.contact@gmail.com<br>
     Insagram: Shulaez<br>
     Facebook: Shulaze<br>
     Phonenumber: 077 777 7769<br><br>
@@ -297,10 +303,10 @@ function showSlides(n) {
     Mon-Fri: 10-17 <br>
     Sat: 09-14<br>
     Sun: Closed<br></p>
-    
+
 </footer>
-    
- <img src="https://www.fastighetssverige.se/upload/11607_full.jpg?" width="400" height="300">
+
+ <img src="https://www.fastighetssverige.se/upload/11607_full.jpg?" alt="Something" width="400" height="300">
 
 </body>
 
