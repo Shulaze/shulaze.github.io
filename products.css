@@ -8,6 +8,10 @@
   width: 50%;
 }*/
 
+body {
+  font-family: sans-serif;
+}
+
 table {
   width: 100%;
 }
